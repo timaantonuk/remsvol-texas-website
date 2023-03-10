@@ -1,11 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='font-display font-bold'>
-        Whereas disregard and contempt for human rights have resulted
-      </h1>
+      <Header />
+      {/* <div className='Container border-green-500 border-2 max-w-6xl mx-auto h-full'></div> */}
     </div>
   );
 }
