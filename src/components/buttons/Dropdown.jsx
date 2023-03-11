@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ function Dropdown() {
   return (
     <div className="relative">
       <button
-        className="font-semibold px-4 rounded inline-flex items-center"
+        className="font-semibold rounded inline-flex items-center"
         onClick={toggleDropdown}
       >
         <span>Services</span>
